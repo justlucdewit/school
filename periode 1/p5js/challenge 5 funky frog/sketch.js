@@ -1,23 +1,24 @@
 function setup(){
 	createCanvas(400, 400);
-	ellipse(150, 70, 60, 120);//left ear
-	ellipse(240, 70, 60, 120);//right ear
 
-	ellipse(200, 170, 150, 150); //face
-	
-	fill(0, 0, 0);
+	let x = 200;
+	let y = 200;
 
-	let eyeSize = 40;
-	ellipse(170, 150, eyeSize, eyeSize);//left eye
-	ellipse(230, 150, eyeSize, eyeSize);//right eye
+	noStroke();
+	fill(30, 204, 91);
 
-	line(150, 200, 250, 200);//mouth
+	ellipse(x, y, 200, 100);
+	ellipse(x-50, y-50, 40, 40);
+	ellipse(x+50, y-50, 40, 40);
 
-	noFill();
+	fill(255);
+	ellipse(x-50, y-50, 30, 30);
+	ellipse(x+50, y-50, 30, 30);
 
-	let teethHeight = 100;
-	rect(185, 200, 15, teethHeight);//left tooth
-	rect(200, 200, 15, teethHeight);//right tooth
+	fill(0);
+	ellipse(x, y, 150, 50);
+	rect(x-60, y-50, 10, 10);
+	rect(x+55, y-50, 10, 10);
 }
 
 function draw(){
