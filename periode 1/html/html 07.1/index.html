@@ -1,13 +1,72 @@
 <!DOCTYPE HTML>
-<htmtl>    
+<htmtl>
     <head>
-       <title>Kerstbomen online</title> 
+       <title>Kerstbomen online</title>
     </head>
     <body>
         <h1>Kerstbomen</h1>
-    <hr />
+    <hr>
     <h2>Bestel uw kant en klare kerstboom online</h2>
-    
-    
+    <form action="bestellinggereed.html">
+      <fieldset>
+        <legend>Afleveradres</legend>
+
+      Naam:
+      <input type="text" > </input>
+      <br>
+      Adres:
+      <input type="text"></input>
+      <br>
+      Postcode:
+      <input type="text"></input>
+      <br>
+      Woonplaats:
+      <input type="text"></input>
+      <br>
+      Emailadres:
+      <input type="text"></input>
+    </fieldset>
+    <fieldset>
+      <legend>Specificatie kerstboom</legend>
+
+      Welke boom wil je hebben
+          <select name="boomtype">
+            <option value="Fijnspar">Fijnspar</option>
+            <option value="Servischespar">Servische spar</option>
+            <option value="Blauwspar">Blauwspar</option>
+            <option value="Nordmann">Nordmann</option>
+          </select>
+          <br>
+          <br>
+            Hoogte van de boom:
+            <input type="radio" name="Height" value="50"> 50 cm
+            <input type="radio" name="Height" value="100"> 100 cm
+            <input type="radio" name="Height" value="150"> 150 cm
+          <br>
+          <br>
+          Kluit
+        <input type="radio" name="Kluit" value="ja" checked> Ja
+        <input type="radio" name="Kluit" value="nee"> Nee
+        <br>
+        <br>
+        Welke versieringen moeten in de boom: <br>
+      <input type="checkbox" name="versieringen" value="Wittelampjes">Witte lampjes <br>
+      <input type="checkbox" name="versieringen" value="Gekleurdelampjes">Gekleurde lampjes <br>
+      <input type="checkbox" name="versieringen" value="Rodeballen">Rode ballen <br>
+      <input type="checkbox" name="versieringen" value"Goudkleurigeballen">Goudkleurige ballen <br>
+      <input type="checkbox" name="versieringen" value="Goudkleurigeslinger">Goudkleurige slinger
+      <br>
+      <br>
+      Beschrijf de overige wensen voor de kerstboom <br>
+    <textarea rows="4" cols="50" placeholder="Opmerkingen">
+      Opmerkingen
+    </textarea>
+        <br>
+        <br>
+      Upload een plaatje van je favoriete kerstboomversiering <br>
+      <input type="file" name="myFile">
+    </fieldset>
+    <input type="submit" value="Versturen">
+    </form>
     </body>
 </htmtl>
