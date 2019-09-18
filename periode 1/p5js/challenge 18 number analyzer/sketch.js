@@ -1,8 +1,8 @@
 function setup(){
 	createCanvas(400, 400);
-	var theNumber = -1;
+	let theNumber = -1;
 
-	fill(0, 0, 0);
+	fill(0);
 	textSize(30);
 	text("Analysis of: " + theNumber, 10, 36);
 
