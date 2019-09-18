@@ -21,3 +21,4 @@ function draw(){
 	ellipse(bodyX-25, bodyY-80, 20, 20);
 	ellipse(bodyX-11, bodyY-80, 20, 20);
 }
+
