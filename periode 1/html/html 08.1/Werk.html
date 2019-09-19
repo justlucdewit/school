@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Beschibare dieren</title>
+    <meta charset="utf-8">
+    <title>Werk</title>
   </head>
   <body>
     <h1>Dierenasiel "De Gentiaan"</h1>
@@ -9,5 +10,59 @@
     <a href="Beschikbaar.html"> BESCHIBAAR</a>
     <a href="Werk.html"> WERK</a>
     <hr>
+
+    <h2>Werken in het dierenasiel</h2>
+    <p>In het dierenasiel is altijd een heleboel werk te doen. We hebben banen voor vaste medewerkers, maar ook voor vrijwilligers die een paar uurtjes een nuttige bezigheid zoeken. <br>
+    Ben je geinteresseerd, vul dan onderstaand formuliet in en we nemen contact met je op.</p>
+      <form>
+          <fieldset>
+              <legend>NAW-GEGEVENS</legend>
+                <table>
+                  <tr>
+                    <td>Naam:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Adress:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Postcode:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Woonplaats:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Emailadres:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                </table>
+          </fieldset>
+          <fieldset>
+              <legend>SOORT WERK</legend>
+              Wat voor soort werk zoek je:
+              <input type="radio" name="Soortwerk" value="Betaaldwerk" checked>Betaald werk
+              <input type="radio" name="Soortwerk" value="vrijwilligerswerk">vrijwilligerswerk
+              <br>
+              Met welke dieren heb je ervaring:
+              <br>
+              <input type="checkbox" name="ervaring" value="Honden">Honden
+              <br>
+              <input type="checkbox" name="ervaring" value="Katten">Katten
+              <br>
+              <input type="checkbox" name="ervaring" value="Konijnen">Konijnen
+              <br>
+              <input type="checkbox" name="ervaring" value="Cavia's">Cavia's
+              <br>
+              <input type="checkbox" name="ervaring" value="anders">Andere dieren, nl:
+              <textarea rows="4" cols="50"></textarea>
+              <br>
+              Stuur je CV mee:
+              <input type="file">
+        </fieldset>
+        <input type="submit" value="Versturen">
+      </form>
   </body>
 </html>
