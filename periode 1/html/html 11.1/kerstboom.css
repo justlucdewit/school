@@ -1,0 +1,19 @@
+body{
+  background-color: white;
+}
+
+h1{
+  color: #006400;
+}
+h2{
+  color: rgb(51, 204 , 0);
+}
+p{
+  color: green;
+}
+b{
+  color: blue;
+}
+i{
+  color: red;
+}
