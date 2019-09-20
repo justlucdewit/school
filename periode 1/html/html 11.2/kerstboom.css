@@ -1,0 +1,26 @@
+body{
+  background-color: #CCFFCC;
+}
+
+h1{
+  color: white;
+  background-color: olive;
+}
+h2{
+  color: rgb(51, 204 , 0);
+}
+p{
+  color: green;
+}
+b{
+  color: blue;
+}
+i{
+  color: red;
+}
+#menu{
+  background-color: white;
+}
+#menu2{
+  background-color: #3CB371;
+}
