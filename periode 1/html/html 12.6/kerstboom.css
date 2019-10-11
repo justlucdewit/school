@@ -36,8 +36,14 @@ span.cursif{
 a{
   font-family: Courier;
 }
-.menu a{
-  text-decoration: #006400;
+#menu a:link{
+  color: #006400;
+}
+#menu a:visited{
+ color: #000080;
+}
+#menu a:hover{
+  font-size: 125%;
 }
 #traditie{
   text-align:right;
