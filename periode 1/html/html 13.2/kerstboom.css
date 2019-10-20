@@ -1,0 +1,72 @@
+body{
+  background-color: #CCFFCC;
+}
+
+h1{
+  font-family: Times;
+  color: white;
+  background-color: olive;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+h2{
+  font-family: Times;
+  color: rgb(51, 204 , 0);
+  font-size: 36px;
+}
+p{
+  color: green;
+  font-family: Helvetica;
+  min-width: 150px; 
+	max-width: 500px;
+	min-height: 50px; 
+  max-height: 100px;
+  overflow: scroll;
+}
+span.bold{
+  color: navy;
+  font-style: bold;
+}
+span.cursif{
+  color: red;
+  font-style: italic;
+}
+#menu{
+  font-size: 18px;
+  background-color: white;
+}
+#menu2{
+  background-color: #3CB371;
+  width: 150px;
+  height: 75px;  
+  border-style: double;
+  border-width: 4px;
+  text-align: center;
+}
+a{
+  font-family: Courier;
+}
+#menu a:link{
+  color: #006400;
+}
+#menu a:visited{
+ color: #000080;
+}
+#menu a:hover{
+  font-size: 125%;
+}
+#traditie{
+  text-align:right;
+}
+#geloof{
+  text-align:center;
+}
+#wanneer{
+  text-align:left;
+}
+
+#Return{
+  width: 150px;
+  height: 75px;
+  overflow: scroll;
+}
