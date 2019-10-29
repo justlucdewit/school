@@ -1,0 +1,138 @@
+body{
+  background-color: #CCFF77;
+}
+
+h1{
+  z-index: 1;
+  top: 1px;
+  margin: 1px;
+  width: 800px;
+  position: fixed;
+  font-family: Times;
+  color: white;
+  background-color: olive;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+h2{
+  font-family: Times;
+  color: rgb(51, 204 , 0);
+  font-size: 36px;
+}
+
+h3 {
+  color: rgb(51, 204 , 0);
+  font-family: Helvetica;
+}
+
+p{
+  color: green;
+  font-family: Helvetica;
+}
+span.bold{
+  color: navy;
+  font-style: bold;
+}
+span.cursif{
+  color: red;
+  font-style: italic;
+}
+#menu{
+  margin-top: 73px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+}
+#menu2{
+  background-color: #3CB371;
+  width: 150px;
+  height: 75px;  
+  border-style: double;
+  text-align: center;
+  margin-top: 10px;
+  border-width: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-right: auto;
+  position: absolute;
+  left: 100px;
+}
+a{
+  font-family: Courier;
+}
+#menu a{
+  text-align: center; 
+  padding: 10px;
+}
+#menu a:link{
+  color: #006400;
+}
+#menu a:visited{
+ color: #000080;
+}
+#menu a:hover{
+  font-size: 125%;
+}
+
+#Return{
+  width: 150px;
+  height: 75px;
+}
+
+.hidden1{
+  visibility: hidden;
+}
+
+#pagina {
+  width: 800px;
+  margin: auto;
+  background-color: #ccffcc;
+  position: relative;
+}
+
+#tekst {
+  background-color: #CCFFcc;
+}
+
+.float {
+  margin: 10px;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+#oorsprong {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#verkoop {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#soort {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#traditie {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#versiering {
+  background-color: white;
+  border: 1px black solid;
+}
+
+#kunstboom {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#Return {
+  height: 75%;
+}

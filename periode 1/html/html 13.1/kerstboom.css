@@ -8,6 +8,10 @@ h1{
   background-color: olive;
   font-size: 60px;
   text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
 }
 h2{
   font-family: Times;
