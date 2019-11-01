@@ -1,25 +1,26 @@
 body{
     background-color: lightgray;
+    margin: 0px;
     font-family: Times;
 }
 
 header{
     text-align: center;
     padding: 50px;
+    margin: 1%;
     color: blue;
     font-weight: bold;
     background-image: url("Gras.jpg");
 }
 
 #mainbody{
-    margin-top: 10px;
+    margin: 1%;
     background-color: blue;
     height: 540px;
 }
 
-
 #ad, #mop, #nav{
-    display: inline-block;
+    float: left;
     margin: 0.5%;
     padding: 0.5%;
     height: 500px;
@@ -29,18 +30,15 @@ header{
 #nav{
     background-color: white;
     padding-left: 2%;
-    width: 14%;
-    float: left;
+    width: 13.5%;
 }
 
 #mop{
     background-color: pink;
-    float: middle;
     width: 61%;
 }
 
 #ad{
     background-color: white;
-    float: right;
-    width: 14%;
+    width: 16%;
 }
