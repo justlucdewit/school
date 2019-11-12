@@ -9,7 +9,7 @@
 			$themperatuur = 4;
 			$luchtvochtigheid = 84;
 
-			if ($themperatuur < 20 && $luchtvochtigheid < 85){
+			if ($uur >= 17 || $themperatuur < 20 && $luchtvochtigheid < 85){
 				echo "airco uit";
 			}else{
 				echo "airco aan";
