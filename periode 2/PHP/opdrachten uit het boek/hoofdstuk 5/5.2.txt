@@ -1,0 +1,8 @@
+a) false
+b) false
+c) true
+d) true
+e) false
+f) true
+g) true
+h) true
