@@ -1,3 +1,4 @@
+1
 a) false
 b) false
 c) true
@@ -6,3 +7,43 @@ e) false
 f) true
 g) true
 h) true
+
+2
+a) a = 16
+b) a = 23
+c) b = 3.5
+d) b = -3
+e) b = 5
+
+3) b en c
+
+4) nee
+
+5) 1
+
+6) 
+switch($x){
+    case 1:$y+=5;break;
+    case 2:$y+=10;break;
+    case 3:$y+=15;break;
+    case 4:$y+=25;break;
+    default:$y+=0;
+}
+
+7)
+a 0x uitvoer = ""
+b 10x uitvoer = "246810"
+
+8)
+$optelling = 0;
+$i = 0;
+while($i <= 1000){
+    $i++;
+    $optelling += 1;
+}
+
+9)
+$x = 1;
+for($saldo = 0; $saldo < 10000; $saldo+=$x){
+    $x++;
+}
