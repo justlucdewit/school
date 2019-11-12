@@ -5,12 +5,12 @@
 
     <body>
 		<?php
-			$mile = 1.609;
+			$km = 1.609;
 			$max = 10;
-			echo "<table border='1'><tr><th>kilometer</th><th>mile</th></tr>";
+			echo "<table border='1'><tr><th>mile</th><th>kilometer</th></tr>";
 			for ($i = 1; $i <= $max; $i++){
-				$new_mile = $mile*$i;
-				echo "<tr><td>$i</td><td>$new_mile</td></tr>";
+				$new_km = $km*$i;
+				echo "<tr><td>$i</td><td>$new_km</td></tr>";
 			}
 			echo "</table>"
         ?>
