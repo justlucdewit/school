@@ -9,7 +9,7 @@
     </head>
     <body>
         <?php
-            $rows = 38;
+            $rows = 17;
             for($n=0; $n<=$rows-1; $n++){
                 echo "<div>";
                 makeRow($n);

@@ -6,7 +6,7 @@
         <?php
             $limiter = 100000;
             $iteration = 0;
-            $pi = 1;//3.14159265358979323846264
+            $pi = 1;
             $opp = true;
             for ($n = 3; $n<$limiter; $n+=2){
                 if ($opp){
