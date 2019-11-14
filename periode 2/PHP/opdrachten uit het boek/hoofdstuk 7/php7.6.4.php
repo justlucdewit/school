@@ -11,7 +11,7 @@
         <form method="post" action="">
             <label>Prijs </label><input type="text" name="prijs"><br>
             <label>Korting(%) </label><input type="text" name="korting"><br>
-            <input type="submit" value="verander achtergrond" name="submit">
+            <input type="submit" value="bereken" name="submit">
         </form>
         <?php
             if(isset($_POST["submit"])){
