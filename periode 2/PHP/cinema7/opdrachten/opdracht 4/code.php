@@ -1,15 +1,19 @@
+<!--functies.php-->
 <?php
-/*
-	Opdracht PM04 STAP 3: Verwacht in de bioscoop
-	Omschrijving: Voer een query uit middels een prepared statement
-*/
-/*
-$parameters = array(':Verwacht'=>'Verwacht');
-$sth = $pdo->prepare("SELECT * FROM films WHERE Status=:Verwacht");
-$sth->execute($parameters);
-$result = $sth->fetchAll(PDO::FETCH_ASSOC);
-*/	
-	$parameters = array(':Verwacht'=>'Verwacht');
+function ConnectDB()
+{
+  try{
+	  $pdo = new pdo("mysql:host=localhost;dbname=cinema7", "root", "password");
+  }catch(PDOException $e){
+    die("WOOPSIE: ". $e->getMessage());
+  }
+	return $pdo;
+}
+?>
+
+<!--verwacht.php-->
+<?php
+    $parameters = array(':Verwacht'=>'Verwacht');
 	$sth = $pdo->prepare("SELECT * FROM films WHERE Status=:Verwacht");
 	$sth->execute($parameters);
 	$result = $sth->fetchAll(PDO::FETCH_ASSOC);
@@ -51,11 +55,22 @@ $result = $sth->fetchAll(PDO::FETCH_ASSOC);
 		<hr/>
 		";
 	}
-
-
-/*
-	Opdracht PM04 STAP 4: Verwacht in de bioscoop
-	Omschrijving: Zorg er voor dat het result van de query netjes op het scherm wordt getoond.
-*/
-
 ?>
+
+<!--style.css-->
+<style>
+    .movieholder{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+    }
+
+    .imageplace img{
+        width: 10vw;
+    }
+
+    .beschrijving{
+        width: 33%;
+    }
+</stlye>

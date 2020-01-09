@@ -7,14 +7,13 @@ require('./Modules/Functies.php');
 	Opdracht PM04 STAP 2: Verwacht in de bioscoop
 	Omschrijving: Roep de functie ConnectDB aan en stop het resultaat in de variabele $pdo
 */
-
+$pdo = ConnectDB();
 
 
 /*
 	Opdracht PM03 STAP 2: Bioscoop Modulair
 	Omschrijving: Lees de variabele pagina in middels de GET methode
 */
-
 
 
 ?>
@@ -47,7 +46,21 @@ require('./Modules/Functies.php');
 			*/
 			
 
-
+			if (isset($_GET["PageNr"])){
+				switch($_GET["PageNr"]){
+					case 0:
+						break;
+					case 1:
+						break;
+					case 2:
+						require('modules/Verwacht.php');
+						break;
+					case 3:
+						break;
+					case 4:
+						break;
+				}
+			}
 		?>
 	</main>
 </div>

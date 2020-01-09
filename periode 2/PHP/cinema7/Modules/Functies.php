@@ -7,8 +7,11 @@
 */
 function ConnectDB()
 {
-	
-
+  try{
+	  $pdo = new pdo("mysql:host=localhost;dbname=cinema7", "root", "password");
+  }catch(PDOException $e){
+    die("WOOPSIE: ". $e->getMessage());
+  }
 	return $pdo;
 }
 

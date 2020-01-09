@@ -32,15 +32,10 @@ $MenuInUitloggen = ''; // default menuknop inloggen
 
 ?>
 
-<!--
-	Opdracht PM03 STAP 1: Bioscoop Modulair
-	Omschrijving: Voeg een link toe naar index.php met daarbij een variabele pagina en als waarde het pagina nr
--->
-
 <ul id="menu">
-	<li><a href="#">Home</a></li>
-	<li><a href="#">Reserveren</a></li>
-	<li><a href="#">Verwacht</a></li>
-	<li><a href="#">Over ons</a></li>
-	<li><a href="#">Inloggen</a></li>
+	<li><a href="index.php?PageNr=0">Home</a></li>
+	<li><a href="index.php?PageNr=1">Reserveren</a></li>
+	<li><a href="index.php?PageNr=2">Verwacht</a></li>
+	<li><a href="index.php?PageNr=3">Over ons</a></li>
+	<li><a href="index.php?PageNr=4">Inloggen</a></li>
 </ul>
